@@ -3,27 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Blade | My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Blade</h1>
-    <p>Software Developer.</p>
+    <!--NAVBAR-->
+    <div class="navbar">
+        <h2>blade</h2>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
 
-    <h2>About Me</h2>
-    <p>I am a passionate software developer learning how to build real world applications.</p>
+    <!--HERO SECTION-->
+    <div class="hero" id="home">
+        <h1>Blade</h1>
+       <p>Software Developer | Java | Web Apps</p>
+       <button>View my Projects</button>
+    </div>
 
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
     
-    <h2>Projects</h2>
-    <p>My projects will appear here soon.</p>
+    <!--ABOUT SECTION-->
+    <div class="section" id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate software developer focused on building real-world 
+        applications using Java, Web technologies and databases. I enjoy solving
+        practical problems and continuously improving my skills.
+        </p>
+    </div>
+    
 
-    <h2>Contact</h2>
-    <p>Email: ekitara22@gmail.com</p>
+    <!--SKILLS SECTION-->
+    <div class="section" id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>MySQL</li>
+            <li>Java / Spring Boot</li>
+        </ul>
+    </div>
+   
+    <!--PROJECT SECTION-->
+    <div class="section" id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="one">
+                <h3>Student Management System</h3>
+                <img src="images/five.png" alt="Student Management System">
+                <p>System for manages Student records and results.</p>
+                <a href="#" class="project-link">Github</a>
+            </div>
+
+            <div class="one">
+                <h3>E-commerce Website</h3>
+                <img src="images/seven.png" alt="E-commerce Website">
+                <p>Online Shopping platform with cart system and checkout.</p>
+                <a href="#" class="project-link">Github</a>
+            </div>
+        </div>
+    </div>
+    
+    <!--CONTACT SECTION-->
+    <div class="section" id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:ekitara22@gmail.com">ekitara22@gmail.com</a></p>
+        <p>Github: <a href="https://github.com/blade-22-coder" target="_blank">github.com/blade-22-coder</a></p>
+
+    </div>
+    
 </body>
 </html>
